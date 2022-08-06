@@ -1,0 +1,57 @@
+.header_position {
+    position: absolute;
+    top: 2.5rem;
+    left: 50%;
+    transform: translate(-50%, 0%);
+}
+
+.logo {
+    height: 17.6rem;
+    width: 7.2rem;
+}
+
+.header__wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.header__nav-list {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start;
+    padding: 0rem;
+    gap: 2rem;
+    margin-top: 2.5rem;
+}
+
+.header__nav-link {
+    font: {
+        family: "Mont";
+        weight: 700;
+        size: 1.8rem;
+    }
+    line-height: 2.3rem;
+}
+
+.header__phone {
+    margin-top: 1rem;
+    &-link {
+        font: {
+            family: 'Mont';
+            size: 2.4rem;
+            weight: 800;
+        };
+        line-height: 3.67rem;
+        display: inline-block;
+        margin: 1.5rem 4rem 0 0;
+    }
+    &-btn {
+        width: 19.7rem;
+        height: 5.2rem;
+        color: #fff;
+        background-color: #FF4C00;
+        border: none;
+        cursor: pointer;
+    }
+}

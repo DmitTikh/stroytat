@@ -1,0 +1,60 @@
+.promo {
+    background: url('../img/header/headerbg.png');
+    padding-top: 24.2rem;
+    
+    &__title {
+        margin: 0;
+        font: {
+            family: 'Mont';
+            size: 4.8rem;
+            weight: 800;
+        };
+        line-height: 6.24rem;
+        color: #fff;
+    }
+
+    &__suptitle {
+        color: #fff;
+        line-height: 4.6rem;
+        margin-top: 2rem;
+        font: {
+            family: 'Mont';
+            size: 3.6rem;
+            weight: 600;
+        };
+    }
+}
+
+.calc-price {
+    padding: 1.6rem 3rem;
+    width: 23.4rem;
+    height: 2.6rem;
+    background-color: #FF4C00;
+    line-height: 2.556rem;
+    display: inline-block;
+    text-align: center;
+    font: {
+        family: 'Mont';
+        size: 2rem;
+        weight: 600;
+    };
+    &_margin {
+        margin: 6rem 10rem 16rem 0;
+    }
+}
+
+.order-btn {
+    width: 23.2rem;
+    height: 5.8rem;
+    border: none;
+    background-color: #FB7405;
+    color: white;
+    font: {
+        family: 'Mont';
+        size: 2rem;
+        weight: 600;
+    };
+    line-height: 2.556rem;
+    cursor: pointer;
+}
+
